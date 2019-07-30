@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">نظام الصلاة الذكي - SPS</string>
+    <string name="SPS_BT_deviceName">SPS</string>
+
+    <string name="connectBtn">
+     <font size="17">اتصال</font>
+    </string>
+    <string name="BTstatus_connected">
+     <font size="17">متصل</font>
+    </string>
+    <string name="BTstatus_disconnected">
+     <font size="17">غير متصل</font>
+    </string>
+
+
+    <string name="day1">
+     <font size="19">الأحد</font>
+    </string>
+    <string name="day2">
+     <font size="19">الاثنين</font>
+    </string>
+    <string name="day3">
+     <font size="19">الثلاثاء</font>
+    </string>
+    <string name="day4">
+     <font size="19">الأربعاء</font>
+    </string>
+    <string name="day5">
+     <font size="19">الخميس</font>
+    </string>
+    <string name="day6">
+     <font size="19">الجمعة</font>
+    </string>
+    <string name="day7">
+        <font size="21">السبت</font>
+    </string>
+
+
+    <string name="prayer_1">
+     <font size="25">الفجر</font>
+    </string>
+    <string name="prayer_2">
+     <font size="25">الظهر</font>
+    </string>
+    <string name="prayer_3">
+     <font size="25">العصر</font>
+    </string>
+    <string name="prayer_4">
+     <font size="25">المغرب</font>
+    </string>
+    <string name="prayer_5">
+     <font size="25">العشاء</font>
+    </string>
+
+
+
+
+    <string name="prayer_btn_done">تمت الصلاة</string>
+    <string name="prayer_btn_not_done">ابدأ الصلاة</string>
+    <string name="clearBtn">حذف البيانات</string>
+    <string name="greating">أهلا بكم في SPS</string>
+    <string name="succ">بنجاح</string>
+    <string name="confirm">تأكيد</string>
+    <string name="done_save_prayer_1">تم حفظ صلاة الفجر بنجاح</string>
+    <string name="done_save_prayer_2">تم حفظ صلاة الظهر بنجاح</string>
+    <string name="done_save_prayer_3">تم حفظ صلاة العصر بنجاح</string>
+    <string name="done_save_prayer_4">تم حفظ صلاة المغرب بنجاح</string>
+    <string name="done_save_prayer_5">تم حفظ صلاة العشاء بنجاح</string>
+
+    <string name="done_undo_prayer_1">تم التراجع عن صلاة الفجر بنجاح</string>
+    <string name="done_undo_prayer_2">تم التراجع عن صلاة الظهر بنجاح</string>
+    <string name="done_undo_prayer_3">تم التراجع عن صلاة العصر بنجاح</string>
+    <string name="done_undo_prayer_4">تم التراجع عن صلاة المغرب بنجاح</string>
+    <string name="done_undo_prayer_5">تم التراجع عن صلاة العشاء بنجاح</string>
+
+    <string name="confirm_done_prayer_1">هل حقاً قمت بأداء صلاة الفجر ؟</string>
+    <string name="confirm_done_prayer_2">هل حقاً قمت بأداء صلاة الظهر ؟</string>
+    <string name="confirm_done_prayer_3">هل حقاً قمت بأداء صلاة العصر ؟</string>
+    <string name="confirm_done_prayer_4">هل حقاً قمت بأداء صلاة المغرب ؟</string>
+    <string name="confirm_done_prayer_5">هل حقاً قمت بأداء صلاة العشاء ؟</string>
+
+    <string name="confirm_undo_prayer_1">هل حقاً تود التراجع عن صلاة الفجر ؟</string>
+    <string name="confirm_undo_prayer_2">هل حقاً تود التراجع عن صلاة الظهر ؟</string>
+    <string name="confirm_undo_prayer_3">هل حقاً تود التراجع عن صلاة العصر ؟</string>
+    <string name="confirm_undo_prayer_4">هل حقاً تود التراجع عن صلاة المغرب ؟</string>
+    <string name="confirm_undo_prayer_5">هل حقاً تود التراجع عن صلاة العشاء ؟</string>
+    <string name="turnBT_on_msg">من فضلك قم بتشغيل البلوتوث</string>
+    <string name="alreadyConnected_msg">أنت متصل حالياً !!</string>
+    <string name="pair_yourDevice_with_SPS_msg">الرجاء مزامنة البلوتوث مع نظام ال (SPS)</string>
+    <string name="done_delete_all_data_msg">تم حذف البيانات بنجاح</string>
+    <string name="connect_toSPS_first_msg">الرجاء الاتصال بال (SPS) أولاً</string>
+    <string name="connecting">جاري الاتصال ...</string>
+    <string name="please_wait">الرجاء الانتظار ...</string>
+    <string name="connectionFaild_msg">فشل في الاتصال, حاول مرة أخرى !!</string>
+    <string name="settings_activity">الإعدادات</string>
+    <string name="about_sps_activity">حول نظام SPS</string>
+    <string name="choose_language">لغة العرض</string>
+    <string name="what_is_sps">ما هو نظام SPS ؟</string>
+    <string name="what_is_sps_answer">الكثير من المسلمين يعانون من مشكلة ضبط عدد الركعات أثناء أداء الصلاة وذلك لأسباب عدة أبرزها النسيان المتكرر والوسواس كما هو الحال عند مرضى الزهايمر وبعض كبار السن وغيرهم.
+لذلك قمنا بتطوير نظام الصلاة الذكي (SPS) لمساعدة هؤلاء الأشخاص على أداء صلواتهم المفروضة بشكل صحيح دون أي زيادة أو نقصان. فقمنا بتصميم نظام يتتبع حركات المصلي أثناء الصلاة وذلك بهدف ضبط عدد الركعات والسجدات التي قام بها المصلي أثناء الصلاة. وكذلك أيضاً قمنا بعمل تطبيق أندرويد والذي يمكّن المستخدم من تتبع الصلوات التي قام بأدائها خلال اليوم. يمكن للمستخدم أيضاً ربط تطبيق الجوال مع سجادة الصلاة الذكية عن طريق البلوتوث للحصول على مزايا أكثر أو استخدام كل منهما بشكل منفصل.
+</string>
+
+
+    <string name="who_are_we">من نحن ؟</string>
+    <string name="who_are_we_answer">
+        <!--نحن طلاب علوم حاسب في جامعة الإمام محمد بن سعود الإسلامية:\n-->
+        عبدالوهاب أحمد الهندي\n
+        نواف عبدالعزيز ميسري\n
+        بدر مراد أحمد
+    </string>
+    <string name="prayer_btn_undo">تراجع</string>
+
+</resources>

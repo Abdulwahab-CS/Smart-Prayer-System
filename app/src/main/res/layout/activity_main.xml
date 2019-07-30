@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/sps_tool_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text=""
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/a"
+        android:layout_width="380dp"
+        android:layout_height="390dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:background="@color/not_done_prayer_background_color"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/_1_textView"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="@string/prayer_1"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/_1_prayerDoneTime"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/_1_startBtn"
+                android:layout_width="20dp"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:onClick="start_prayer"
+                android:text="@string/prayer_btn_not_done"
+                android:textAllCaps="false"
+                android:textSize="11sp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/_1_undoBtn"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/ic_clear_black_2dp"
+                android:onClick="undo_prayer"
+                android:textAllCaps="false"
+                android:textSize="11sp" />
+
+            <CheckBox
+                android:id="@+id/_1_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:onClick="donePrayer"
+                android:scaleX="1.4"
+                android:scaleY="1.4"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:background="@color/not_done_prayer_background_color"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/_2_textView"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="@string/prayer_2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/_2_prayerDoneTime"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/_2_startBtn"
+                android:layout_width="10dp"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:onClick="start_prayer"
+                android:text="@string/prayer_btn_not_done"
+                android:textAllCaps="false"
+                android:textSize="11sp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/_2_undoBtn"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/ic_clear_black_2dp"
+                android:onClick="undo_prayer"
+                android:textAllCaps="false"
+                android:textSize="11sp" />
+
+            <CheckBox
+                android:id="@+id/_2_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:onClick="donePrayer"
+                android:scaleX="1.4"
+                android:scaleY="1.4"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:background="@color/not_done_prayer_background_color"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/_3_textView"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="@string/prayer_3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/_3_prayerDoneTime"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/_3_startBtn"
+                android:layout_width="10dp"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:onClick="start_prayer"
+                android:text="@string/prayer_btn_not_done"
+                android:textAllCaps="false"
+                android:textSize="11sp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/_3_undoBtn"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/ic_clear_black_2dp"
+                android:onClick="undo_prayer"
+                android:textAllCaps="false"
+                android:textSize="11sp" />
+
+            <CheckBox
+                android:id="@+id/_3_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:onClick="donePrayer"
+                android:scaleX="1.4"
+                android:scaleY="1.4"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:background="@color/not_done_prayer_background_color"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/_4_textView"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="@string/prayer_4"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/_4_prayerDoneTime"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/_4_startBtn"
+                android:layout_width="10dp"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:onClick="start_prayer"
+                android:text="@string/prayer_btn_not_done"
+                android:textAllCaps="false"
+                android:textSize="11sp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/_4_undoBtn"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/ic_clear_black_2dp"
+                android:onClick="undo_prayer"
+                android:textAllCaps="false"
+                android:textSize="11sp" />
+
+            <CheckBox
+                android:id="@+id/_4_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:onClick="donePrayer"
+                android:scaleX="1.4"
+                android:scaleY="1.4"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/not_done_prayer_background_color"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/_5_textView"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="0"
+                android:gravity="center_vertical"
+                android:text="@string/prayer_5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/_5_prayerDoneTime"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/_5_startBtn"
+                android:layout_width="10dp"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:onClick="start_prayer"
+                android:text="@string/prayer_btn_not_done"
+                android:textAllCaps="false"
+                android:textSize="11sp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/_5_undoBtn"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/ic_clear_black_2dp"
+                android:onClick="undo_prayer"
+                android:textAllCaps="false"
+                android:textSize="11sp" />
+
+            <CheckBox
+                android:id="@+id/_5_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:onClick="donePrayer"
+                android:scaleX="1.4"
+                android:scaleY="1.4"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="382dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/backgroundColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tool_bar">
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:background="@color/disconnected_color"
+            android:padding="3dp"
+            android:text="@string/BTstatus_disconnected"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/connected_icon"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/connected_icon"
+            android:layout_width="31dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:src="@mipmap/ic_launcher_foreground"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="153dp"
+            android:layout_height="131dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/connectBtn"
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:text="@string/connectBtn"
+                android:textAllCaps="false"
+                tools:layout_editor_absoluteX="72dp"
+                tools:layout_editor_absoluteY="12dp"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/day"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                android:text="------"
+                android:textSize="17sp"
+                tools:layout_editor_absoluteX="270dp"
+                tools:layout_editor_absoluteY="88dp" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:text="-----------"
+                android:textSize="17sp"
+                tools:layout_editor_absoluteX="257dp"
+                tools:layout_editor_absoluteY="129dp" />
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>

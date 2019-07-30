@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="menuItemTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">#fff</item>
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <style name="connected_background">
+        <item name="android:background">#649764</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="disconnected_background">
+        <item name="android:background">#9C6C67</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+</resources>

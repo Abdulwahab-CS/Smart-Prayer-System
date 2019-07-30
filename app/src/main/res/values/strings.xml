@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Smart Prayer System - SPS</string>
+    <string name="SPS_BT_deviceName">SPS</string>
+
+    <string name="connectBtn">connect</string>
+    <string name="BTstatus_connected">connected</string>
+    <string name="BTstatus_disconnected">disconnected</string>
+
+
+    <string name="day1">
+     <font size="16">Sunday</font>
+    </string>
+    <string name="day2">
+     <font size="16">Monday</font>
+    </string>
+    <string name="day3">
+     <font size="16">Tuesday</font>
+    </string>
+    <string name="day4">
+     <font size="16">Wednesday</font>
+    </string>
+    <string name="day5">
+     <font size="16">Thursday</font>
+    </string>
+    <string name="day6">
+     <font size="16">Friday</font>
+    </string>
+    <string name="day7">
+     <font size="16">Saturday</font>
+    </string>
+
+
+
+    <!--<string name="day1">Sunday</string>-->
+    <!--<string name="day2">Monday</string>-->
+    <!--<string name="day3">Tuesday</string>-->
+    <!--<string name="day4">Wednesday</string>-->
+    <!--<string name="day5">Thursday</string>-->
+    <!--<string name="day6">Friday</string>-->
+    <!--<string name="day7">Saturday</string>-->
+
+    <string name="prayer_1">Fajr</string>
+    <string name="prayer_2">Dhuhr</string>
+    <string name="prayer_3">Asr</string>
+    <string name="prayer_4">Maghrib</string>
+    <string name="prayer_5">Esha</string>
+
+    <string name="prayer_btn_done">done</string>
+    <string name="prayer_btn_not_done">start</string>
+
+    <string name="clearBtn">clear</string>
+
+
+    <string name="succ">successfully</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="done_save_prayer_1">Fajr has been saved successfully</string>
+    <string name="done_save_prayer_2">Dhuhr has been saved successfully</string>
+    <string name="done_save_prayer_3">Asr has been saved successfully</string>
+    <string name="done_save_prayer_4">Maghrib has been saved successfully</string>
+    <string name="done_save_prayer_5">Esha has been saved successfully</string>
+
+    <string name="done_undo_prayer_1">Undo Fajr successfully</string>
+    <string name="done_undo_prayer_2">Undo Dhuhr successfully</string>
+    <string name="done_undo_prayer_3">Undo Asr successfully</string>
+    <string name="done_undo_prayer_4">Undo Maghrib successfully</string>
+    <string name="done_undo_prayer_5">Undo Esha successfully</string>
+
+    <string name="confirm_done_prayer_1">Do you really performed Fajr ?</string>
+    <string name="confirm_done_prayer_2">Do you really performed Dhuhr ?</string>
+    <string name="confirm_done_prayer_3">Do you really performed Asr ?</string>
+    <string name="confirm_done_prayer_4">Do you really performed Maghrib ?</string>
+    <string name="confirm_done_prayer_5">Do you really performed Esha ?</string>
+
+    <string name="confirm_undo_prayer_1">Do you really want to undo Fajr ?</string>
+    <string name="confirm_undo_prayer_2">Do you really want to undo Dhuhr ?</string>
+    <string name="confirm_undo_prayer_3">Do you really want to undo Asr ?</string>
+    <string name="confirm_undo_prayer_4">Do you really want to undo Maghrib ?</string>
+    <string name="confirm_undo_prayer_5">Do you really want to undo Esha ?</string>
+
+    <string name="greating">Welcome to SPS</string>
+
+    <string name="turnBT_on_msg">Please turn the Bluetooth on</string>
+    <string name="alreadyConnected_msg">You are already connected !!</string>
+    <string name="pair_yourDevice_with_SPS_msg">Please pair your mobile with (SPS)</string>
+
+    <string name="done_delete_all_data_msg">Data has been cleared successfully</string>
+    <string name="connect_toSPS_first_msg">Please connect to (SPS) first</string>
+
+    <string name="connecting">Connecting ...</string>
+    <string name="please_wait">Please wait ...</string>
+
+    <string name="connectionFaild_msg">Connection failed, try again !!</string>
+
+    <string name="settings_activity">Settings</string>
+    <string name="about_sps_activity">About SPS</string>
+
+    <string name="choose_language">Display language</string>
+
+    <string name="what_is_sps">What is SPS ?</string>
+    <string name="what_is_sps_answer">Many Muslims suffer from the problem of controlling the number of Rakahs during the prayer. Due to several reasons, most of which are frequent forgetfulness such as older adults and Alzheimer patients. Thus, we develop a new Smart Prayer System (SPS) to help those kinds of people doing their obligatory prayers properly without any adding or missing. Our system detects the different postures of the person during the prayer in order to count the number of Rakahs that have been prayed. Besides, we develop an android application that tracks all prayers throughout the day and synchronize with the SPS. The synchronization is established via Bluetooth whenever requested by the user.</string>
+
+    <string name="who_are_we">Who are we ?</string>
+    <string name="who_are_we_answer">
+        <!--We are Computer Science students at Al-Imam University:\n-->
+        Abdulwahab Ahmad Alhendi\n
+        Nawaf Abdulaziz Mesari\n
+        Badr Murad Ahmad
+    </string>
+
+
+    <string-array name="language_options">
+        <item name="ar_lang">العربية</item>
+        <item name="en_lang">English</item>
+    </string-array>
+    
+    <string name="prayer_btn_undo">undo</string>
+
+</resources>

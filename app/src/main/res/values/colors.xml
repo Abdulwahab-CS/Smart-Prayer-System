@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333535</color>
+    <color name="colorPrimaryDark">#222121</color>
+    <color name="colorAccent">#009688</color>
+
+    <color name="disconnected_color">#F1D1CF</color>
+    <color name="connected_color">#C0D6BE</color>
+
+    <color name="done_prayer_background_color">#E9F1E9</color>
+    <color name="not_done_prayer_background_color">#F5F1F1</color>
+
+
+    <color name="backgroundColor">#EBEBEB</color>
+</resources>
