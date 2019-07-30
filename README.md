@@ -1,3 +1,5 @@
+Many Muslims suffer from the problem of controlling the number of Rakahs during the prayer. Due to several reasons, most of which are frequent forgetfulness such as older adults and Alzheimer patients. Thus, we develop a new Smart Prayer System (SPS) to help those kinds of people doing their obligatory prayers properly without any adding or missing. Our system detects the different postures of the person during the prayer in order to count the number of Rakahs that have been prayed. Besides, we develop an android application that tracks all prayers throughout the day and synchronize with the SPS. The synchronization is established via Bluetooth whenever requested by the user.
+
 # Smart-Prayer-System
 
 - Part of my graduation project.
